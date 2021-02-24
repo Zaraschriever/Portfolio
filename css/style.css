@@ -508,6 +508,7 @@ footer {
   min-width: 10em;
   max-width: 25em;
   margin: 2em;
+  margin-bottom: 5em;
 }
 
 #mijnwerk section:nth-of-type(2) article h3 {
@@ -517,15 +518,22 @@ footer {
 #mijnwerk section:nth-of-type(2) article p {
   margin: 0;
   margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 #mijnwerk section:nth-of-type(2) article a {
+  position: relative;
+  margin-top: 3em;
+  margin-bottom: 1em;
   background-color: #FF5757;
   color: white;
   text-decoration: none;
   border-radius: 1em;
   padding: 0.8em;
-  margin-top: 2em;
+}
+
+#mijnwerk section:nth-of-type(2) article a:hover {
+  background-color: #FD3939;
 }
 
 /* #mijnwerk section:nth-of-type(2) h2 {
@@ -709,7 +717,7 @@ div.centerline2{
 #cv section:nth-of-type(2) article:nth-of-type(2) ul {
   background-color: #80C3EF;
   margin: 0;
-  margin-top: 4em;
+  margin-top: 3em;
 }
 
 #cv section:nth-of-type(2) article:nth-of-type(2) ul:hover {
